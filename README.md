@@ -23,15 +23,15 @@ To use this plugin insert in any page the following blockquotes:
 
 ![Warning](samples/warning.png)
 
-    >>> This is an error with four blockquotes
+    >>>> This is an error with four blockquotes
 
 ![Error](samples/error.png)
 
-    >>> This is a note with five blockquotes
+    >>>>> This is a note with five blockquotes
 
 ![Note](samples/note.png)
 
-    >>> This is a tip with six blockquotes
+    >>>>>> This is a tip with six blockquotes
 
 ![Tip](samples/tip.png)
 
