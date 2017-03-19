@@ -1,0 +1,27 @@
+name: Blockquotes
+version: 0.1.0
+description: Blockquotes
+icon: code
+author:
+  name: Muflone
+  email: webreg@vbsimple.net
+homepage: https://github.com/muflone/grav-plugin-blockquotes
+demo: https://github.com/muflone/grav-plugin-blockquotes/README.md
+keywords: plugin, css, blockquotes
+bugs: https://github.com/muflone/grav-plugin-blockquotes/issues
+docs: 
+license: GPL
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
