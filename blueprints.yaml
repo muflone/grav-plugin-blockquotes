@@ -1,5 +1,5 @@
 name: Blockquotes
-version: 0.1.0
+version: 0.2.0
 description: Blockquotes
 icon: code
 author:
@@ -12,12 +12,26 @@ bugs: https://github.com/muflone/grav-plugin-blockquotes/issues
 docs: 
 license: GPL
 
+dependencies:
+  - { name: admin, version: '~1.1' }
+
 form:
   validation: strict
   fields:
     enabled:
       type: toggle
       label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    admin_toolbar:
+      type: toggle
+      label: Show in admin toolbar
       highlight: 1
       default: 0
       options:

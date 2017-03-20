@@ -1,0 +1,12 @@
+.fa-quote-right.blockquotes-warning {
+	color: #f0b383;
+}
+.fa-quote-right.blockquotes-error {
+	color: rgba(217,83,79,.8);
+}
+.fa-quote-right.blockquotes-note {
+	color: #6ab0de;
+}
+.fa-quote-right.blockquotes-tip {
+	color: rgba(92,184,92,.8);
+}

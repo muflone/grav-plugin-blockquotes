@@ -28,12 +28,18 @@ class BlockquotesPlugin extends Plugin
     }
 
     /**
-     * Add css
+     * Add css and js files
      */
     public function onTwigSiteVariables()
     {
         $this->grav['assets']->add('plugin://blockquotes/assets/css/blockquotes.css');
         $this->grav['assets']->add('plugin://blockquotes/assets/css/blockquotes-' . $this->grav['language']->getActive() . '.css');
+        if ($this->isAdmin()) {
+            if ($this->config->get('plugins.blockquotes.enabled') && $this->config->get('plugins.blockquotes.admin_toolbar')) {
+              $this->grav['assets']->add('plugin://blockquotes/assets/js/admin.js');
+              $this->grav['assets']->add('plugin://blockquotes/assets/css/admin.css');
+            }
+        }
     }
 
 }
