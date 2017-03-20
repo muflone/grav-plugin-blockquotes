@@ -6,7 +6,7 @@ author:
   name: Muflone
   email: webreg@vbsimple.net
 homepage: https://github.com/muflone/grav-plugin-blockquotes
-demo: https://github.com/muflone/grav-plugin-blockquotes/README.md
+demo: https://github.com/muflone/grav-plugin-blockquotes/blob/master/README.md
 keywords: plugin, css, blockquotes
 bugs: https://github.com/muflone/grav-plugin-blockquotes/issues
 docs: 
